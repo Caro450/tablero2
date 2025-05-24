@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Dashboard RRHH + Asistente GPT</title>
+  <style>
+    body {
+      display: flex;
+      flex-direction: row;
+      height: 100vh;
+      margin: 0;
+      font-family: Arial, sans-serif;
+    }
+    iframe {
+      flex: 1;
+      border: none;
+      height: 100%;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Informe de Power BI -->
+  <iframe 
+    title="tableroTH"
+    src="https://app.powerbi.com/view?r=eyJrIjoiNmIyMzVjY2QtNjFlOC00YTM4LWIyYTItOWY1NmExNDU4MzY1IiwidCI6ImFlNTI1NzU3LTg5YmEtNGQzMC1hMmY3LTQ5Nzk2ZWY4YzYwNCIsImMiOjR9" 
+    allowfullscreen="true">
+  </iframe>
+
+  <!-- Asistente Virtual GPT -->
+  <iframe 
+    title="Asistente Virtual RRHH"
+    src="https://asistente-rrhh.streamlit.app/?embed=true">
+  </iframe>
+
+</body>
+</html>
